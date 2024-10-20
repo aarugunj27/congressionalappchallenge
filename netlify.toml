@@ -1,0 +1,6 @@
+[build]
+  command = "npm run netlify-build"  # Custom build command
+  publish = "client/dist"             # Directory to publish
+
+[dev]
+  command = "npm run dev"             # Command to run for local development
